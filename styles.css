@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #006400;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+#header-content {
+    float: left;
+    width: 60%;
+}
+
+#header-content h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#header-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#header-links {
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+
+#header-links p {
+    margin: 0;
+    font-size: 12px;
+}
+
+#header-links a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+#navbar {
+    clear: both;
+    background-color: #008000;
+    overflow: hidden;
+}
+
+#navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+    width: 25%;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#main-content {
+    display: flex;
+    
+}
+
+#posts {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.post {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.post h2 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    color: #000000;
+}
+
+.post p {
+    margin: 0 0 10px 0;
+    line-height: 1.6;
+}
+
+.post a {
+    color: #008000;
+    text-decoration: none;
+}
+
+#sidebar {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.widget {
+    margin-bottom: 20px;
+    background-color: rgb(176, 173, 173);
+    padding: 20px;
+    margin:0;
+    margin-right: 40px;
+}
+
+.widget h3 {
+    margin: 0 0 10px 0;
+    color: #000800;
+    font-size: 20px;
+}
+
+.widget ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.widget ul li {
+    margin-bottom: 5px;
+}
+
+.widget ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #006400;
+    color: #FFFFFF;
+    padding: 20px 0;
+    clear: both;
+
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-column {
+    width: 45%;
+}
+
+.footer-column h4 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.footer-column ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footer-copyright {
+    font-size: 16px;
+    margin-top: 10px;
+}
